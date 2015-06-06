@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailDomain", "RailDomain\RailDomain.csproj", "{CE0FE949-222E-4B30-91C7-F3610DB262D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailConsole", "RailConsole\RailConsole.csproj", "{1984601F-C4BF-41F6-BF97-408A1885CDAD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CE0FE949-222E-4B30-91C7-F3610DB262D4} = {CE0FE949-222E-4B30-91C7-F3610DB262D4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
