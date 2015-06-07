@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailConsole", "RailConsole\
 		{CE0FE949-222E-4B30-91C7-F3610DB262D4} = {CE0FE949-222E-4B30-91C7-F3610DB262D4}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailForms", "RailForms\RailForms.csproj", "{684E5399-4591-40C6-B806-1CB1BF3ACB1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{1984601F-C4BF-41F6-BF97-408A1885CDAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1984601F-C4BF-41F6-BF97-408A1885CDAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1984601F-C4BF-41F6-BF97-408A1885CDAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{684E5399-4591-40C6-B806-1CB1BF3ACB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684E5399-4591-40C6-B806-1CB1BF3ACB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684E5399-4591-40C6-B806-1CB1BF3ACB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684E5399-4591-40C6-B806-1CB1BF3ACB1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
