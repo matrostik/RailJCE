@@ -86,6 +86,7 @@
             this.btnSearch.TabIndex = 4;
             this.btnSearch.Text = "הצג מידע";
             this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label2
             // 
@@ -131,6 +132,8 @@
             this.ClientSize = new System.Drawing.Size(484, 361);
             this.Controls.Add(this.groupBox1);
             this.Name = "MainForm";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rail";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
