@@ -2,16 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RailDomain.Helpers;
-using System.Data;
 
 namespace RailDomain
 {
-    public class RailDAL
+    internal class RailDAL
     {
         public RailDAL()
         {
@@ -56,7 +51,6 @@ namespace RailDomain
         /// <param name="stationId">station id</param>
         public List<Station> GetLineStations(int stationId)
         {
-            // must return stations????
             string query = string.Format("SELECT * FROM [Stations] WHERE Id IN (SELECT StationId FROM [Routes] WHERE Line IN (SELECT Line FROM [Routes] WHERE StationId={0}))", stationId);
             return ExecuteQuery<Station>(query);
         }

@@ -57,6 +57,7 @@
     <Compile Include="Helpers\Extensions.cs" />
     <Compile Include="Models\Route.cs" />
     <Compile Include="Models\Station.cs" />
+    <Compile Include="RailBL.cs" />
     <Compile Include="RailDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
