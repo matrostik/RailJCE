@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RailDomain.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,20 @@ namespace RailForms
 {
     public partial class ResultForm : Form
     {
+        private Station source { get; set; }
+        private Station destination { get; set; }
+        
         public ResultForm()
         {
             InitializeComponent();
         }
+
+        public void SetData(Station source, Station destination)
+        {
+            this.source = source;
+            this.destination = destination;
+        }
+
+
     }
 }

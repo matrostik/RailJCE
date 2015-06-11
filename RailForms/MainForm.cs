@@ -81,6 +81,12 @@ namespace RailForms
                 MessageBox.Show("נא בחר תחנות יעד ומוצא שונות", "שגיאת מידע", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, MessageBoxDefaultButton.Button1, MessageBoxOptions.RightAlign);
                 return;
             }
+
+            using (ResultForm rForm = new ResultForm())
+            {
+                rForm.SetData(source, destination);
+                rForm.ShowDialog(this);
+            }
         }
     }
 }

@@ -22,7 +22,7 @@ namespace RailDomain
         /// </summary>
         public List<Station> GetAllStations()
         {
-            string query = "SELECT * FROM [Stations]";
+            string query = "SELECT * FROM [Stations] ORDER BY Name";
             return ExecuteQuery<Station>(query);
         }
 
